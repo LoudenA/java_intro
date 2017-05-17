@@ -40,9 +40,9 @@ function rectangularprismVolume(a, h, l)
   return v;
 }
 
-function lineSlope(x1, x2, y1, y2)
+function lineSlope(a, b, c, d)
 {
-  var s = (y1 - y2)/(x1 - x2)
+  var s = (b - d)/(a - c)
 
   return s;
 }
