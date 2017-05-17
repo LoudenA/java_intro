@@ -39,3 +39,10 @@ function rectangularprismVolume(a, h, l)
 
   return v;
 }
+
+function lineSlope(x1, x2, y1, y2)
+{
+  var s = (y1 - y2) / (x1 - x2)
+
+  return s;
+}
