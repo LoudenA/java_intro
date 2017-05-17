@@ -42,7 +42,7 @@ function rectangularprismVolume(a, h, l)
 
 function lineSlope(x1, x2, y1, y2)
 {
-  var s = (y1 - y2) / (x1 - x2)
+  var s = (y1 - y2)/(x1 - x2)
 
   return s;
 }
